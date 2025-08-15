@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Posts Manager</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h2>Posts</h2>
+
+  <form id="postForm">
+    <input type="text" id="image" placeholder="Image URL" required />
+    <input type="text" id="title" placeholder="Title" required />
+    <textarea id="description" placeholder="Description" required></textarea>
+    <button type="submit">Save Post</button>
+  </form>
+
+  <div id="posts"></div>
+
+  <script src="index.js"></script>
+</body>
+</html>
